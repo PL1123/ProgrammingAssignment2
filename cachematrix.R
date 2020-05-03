@@ -41,4 +41,11 @@ cacheSolve <- function(x, ...) {
         m
 }
 
+## this is for testing not the code for the assignment evaluation!!
+x1 <- rbind(c(4,-2), c(-2, 3))
+matrix2 <- makeCacheMatrix(x1)
+cacheSolve(matrix2)
+## testing if it shows the "getting cached data" message 
+cacheSolve(matrix2)
+
 
